@@ -8,7 +8,7 @@ Půjde o klasickou 2D skákací hru do výšky tvořenou v GODOT enginu
 
 ### 2. Level design
 
-Hra se ze začátku bude odehrávat v teplém podnebí ale čím výše se bude hráč posouvat tím více se podnebí ochladí. Postupným skákáním na horu bude hra obtížnější.  
+Hra se ze začátku bude odehrávat v teplém podnebí ale čím výše se bude hráč posouvat tím více se podnebí ochladí. Postupným skákáním nahoru bude hra obtížnější.  
 
 ### 3. Grafika
 
