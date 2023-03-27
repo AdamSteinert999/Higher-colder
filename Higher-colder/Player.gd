@@ -1,5 +1,22 @@
 extends KinematicBody2D
- 
+
+var jump_sound_player = null
+var jump_sound = preload("res://jump_sound2.mp3")
+var sound_playing = false
+
+func _ready():
+	jump_sound_player = AudioStreamPlayer.new()
+	jump_sound_player.stream = jump_sound
+	add_child(jump_sound_player)
+
+func _input(event):
+	if event.is_action_pressed("jump") and not sound_playing:
+		jump_sound_player.play()
+		sound_playing = true
+	elif event.is_action_released("jump"):
+		jump_sound_player.stop()
+		sound_playing = false
+
 const MOVE_SPEED = 500
 const JUMP_FORCE = 1000
 const GRAVITY = 50
@@ -49,3 +66,9 @@ func play_anim(anim_name):
 	if anim_player.is_playing() and anim_player.current_animation == anim_name:
 		return
 	anim_player.play(anim_name)
+	VisualServer.set_default_clear_color(Color.lightblue)
+	
+	
+	
+	
+
