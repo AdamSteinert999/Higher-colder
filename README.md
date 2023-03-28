@@ -29,7 +29,8 @@
 - Můj další ůkol, který bych rád splnil je animace portálu aby byl pohyblivý. 
 ### 7. Propagace (video, bannery…)
 
-- Pro propagaci mé hry bych zvolil video ve kterém hru budu hrát (lets play) a jako další možnost bych zvolil vytvoření banneru který by hráče oslovil a vystihnul podstatu hry. 
+- Pro propagaci mé hry bych zvolil vytvoření banneru který by hráče oslovil a vystihnul podstatu hry.
+![banner](https://user-images.githubusercontent.com/90351003/228381657-56438461-c4a3-4109-9c3a-d10eab2143fb.png)
 ### 8. Finální hra
 
 - Seznamte kompletně čtenáře s poslední verzí své hry. Screenshoty, zvuky, videonahrávka z akce…
