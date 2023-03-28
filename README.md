@@ -24,8 +24,9 @@ Hudba, která hraje v pozadí hry byla vytvořena v soundtrap studiu. Hudba je m
 
 ### 6. Godot
 
-Unity je výkonný engine ve kterém se dá dělat téměř cokoliv, proto PinBall nebude nijak náročný. 
-
+- Godot je open source herní engine pro tvorbu 2D a 3D her. Poskytuje kompletní nástroje pro tvorbu her, včetně vizuálního editoru scén, skriptovacího jazyka a mnoha dalších funkcí.
+- V této chvíli se ve hře snažím o smooth scene transition jednoduše se jedná o hladké přepnutí scény v moment co hráč vkročí do portálu. 
+- Můj další ůkol, který bych rád splnil je animace portálu aby byl pohyblivý. 
 ### 7. Propagace (video, bannery…)
 
 Pro propagaci mé hry bych zvolil video ve kterém hru budu hrát (lets play) a jako další možnost bych zvolil vytvoření banneru který by hráče oslovil a vystihnul podstatu hry. 
