@@ -16,11 +16,11 @@ Objekty ve hře a jejich grafika bude upravovaná ve Photoshopu. Pozadí hry bud
 
 ### 4. Zvuky (Audacity)
 
-Část zvuků bude tvořena vlastním nahráním hlasu a zbylá část z knihoven zvuků pro hry. 
+Zvuky ve hře jako například zvuk při výskoku jsou tvořeny vlastním hlasem nahráným přes Diktafon a poté převedeny na mp3 soubor. (Zvuky v samostatném souboru) 
 
 ### 5. Hudba (LMMS)
 
-Pokusím se vytvořit svou vlastní, jednoduchou, melodickou hudbu v FL studiu  
+Hudba, která hraje v pozadí hry byla vytvořena v soundtrap studiu. Hudba je melodická a má přiostřené basy. (Hudba v samostatném souboru)  
 
 ### 6. Godot
 
