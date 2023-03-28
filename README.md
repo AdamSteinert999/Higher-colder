@@ -4,15 +4,15 @@ Tvorba PC hry
 
 ### 1. Základní koncepce
 
-Půjde o klasickou 2D skákací hru do výšky tvořenou v GODOT enginu 
+Tato hra je 2D skákačka směrem do nebe, která je tvořena v GODOT eniginu. 
 
 ### 2. Level design
 
-Hra se ze začátku bude odehrávat v teplém podnebí ale čím výše se bude hráč posouvat tím více se podnebí ochladí. Postupným skákáním nahoru bude hra obtížnější.  
+Hra se ze začátku bude odehrávat v teplém podnebí ale čím dále se bude hráč posouvat tím více se podnebí ochladí. Postupným skákáním dál bude hra obtížnější.  
 
 ### 3. Grafika
 
-Objekty ve hře a jejich grafika bude upravovaná ve Photoshopu. Pozadí hry bude tvořeno také ve Photoshopu
+Objekty ve hře jsou tvořeny pomocí pixel art stránky kde je možné si vytvořit super graficky vypadající objekty, které se do hry krásně hodí. všechny objekty jsou tvořeny mou vlastní rukou. :) (objekty lze najít ve složce grafika) 
 
 ### 4. Zvuky (Audacity)
 
