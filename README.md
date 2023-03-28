@@ -13,7 +13,8 @@
 ### 3. Grafika
 
 - Objekty ve hře jsou tvořeny pomocí pixel art stránky kde je možné si vytvořit super graficky vypadající objekty, které se do hry krásně hodí. všechny objekty jsou tvořeny mou vlastní rukou. :) (objekty lze najít ve složce grafika) 
-- ![portal1](https://user-images.githubusercontent.com/90351003/228381763-0912527d-6061-40b0-9592-bf1473796ccd.png)
+- ![portal1](https://user-images.githubusercontent.com/90351003/228381763-0912527d-6061-40b0-9592-bf1473796ccd.png), ![rampouch](https://user-images.githubusercontent.com/90351003/228381835-48d02a34-4efd-4012-b239-c4904120ca50.png)
+
 
 
 ### 4. Zvuky (Audacity)
