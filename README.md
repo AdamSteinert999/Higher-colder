@@ -16,7 +16,7 @@
 
 ### 4. Zvuky (Audacity)
 
-- Zvuky ve hře jako například zvuk při výskoku jsou tvořeny vlastním hlasem nahráným přes Diktafon a poté převedeny na mp3 soubor. (Zvuky v samostatném souboru) 
+- Zvuky ve hře jako například zvuk při výskoku jsou tvořeny vlastním hlasem nahráným přes Diktafon a poté převedeny na mp3 soubor. (Zvuky najdete v souboru audio) 
 
 ### 5. Hudba (LMMS)
 
