@@ -1,0 +1,15 @@
+[gd_scene load_steps=3 format=2]
+
+[ext_resource path="res://ende2.png" type="Texture" id=1]
+[ext_resource path="res://ende3.png" type="Texture" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 591, 272 )
+scale = Vector2( 2.57734, 2.875 )
+texture = ExtResource( 2 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 486, 302 )
+texture = ExtResource( 1 )

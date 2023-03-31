@@ -1,0 +1,65 @@
+[gd_scene load_steps=8 format=2]
+
+[ext_resource path="res://portal.tscn" type="PackedScene" id=1]
+[ext_resource path="res://Player.tscn" type="PackedScene" id=2]
+[ext_resource path="res://lpz.tres" type="TileSet" id=3]
+[ext_resource path="res://portal1.png" type="Texture" id=4]
+[ext_resource path="res://strom.png" type="Texture" id=5]
+[ext_resource path="res://listy.png" type="Texture" id=6]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 31, 53.75 )
+
+[node name="world3" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 2 )]
+position = Vector2( 235, 3 )
+
+[node name="TileMap" type="TileMap" parent="."]
+position = Vector2( -22, -411 )
+tile_set = ExtResource( 3 )
+format = 1
+tile_data = PoolIntArray( -1245185, 2, 0, -1310720, 2, 0, -1310719, 2, 0, -1310718, 2, 0, -1179649, 3, 0, -1245184, 3, 0, -1245183, 3, 0, -1245182, 3, 0, -1114113, 3, 0, -1179648, 3, 0, -1179647, 3, 0, -1179646, 3, 0, -1179645, 2, 0, -1179644, 2, 0, -1179643, 2, 0, -1048577, 3, 0, -1114112, 3, 0, -1114111, 3, 0, -1114110, 3, 0, -1114109, 3, 0, -1114108, 3, 0, -1114107, 3, 0, -1114102, 2, 0, -1114101, 2, 0, -983041, 3, 0, -1048576, 3, 0, -917505, 3, 0, -983040, 3, 0, -983033, 2, 0, -851969, 3, 0, -917504, 3, 0, -917491, 2, 0, -917490, 2, 0, -786433, 3, 0, -851968, 3, 0, -851959, 2, 0, -851958, 2, 0, -720897, 3, 0, -786432, 3, 0, -655361, 3, 0, -720896, 3, 0, -720893, 2, 0, -720892, 2, 0, -720891, 2, 0, -589825, 3, 0, -655360, 3, 0, -655357, 3, 0, -655356, 3, 0, -655355, 3, 0, -524289, 3, 0, -589824, 3, 0, -589815, 2, 0, -589814, 2, 0, -589813, 2, 0, -589812, 2, 0, -458753, 3, 0, -524288, 3, 0, -524279, 3, 0, -524278, 3, 0, -524277, 3, 0, -524276, 3, 0, -524275, 3, 0, -393217, 3, 0, -458752, 3, 0, -458749, 2, 0, -458748, 2, 0, -458747, 2, 0, -327681, 3, 0, -393216, 3, 0, -393213, 3, 0, -393212, 3, 0, -393211, 3, 0, -393209, 2, 0, -393208, 2, 0, -262145, 3, 0, -327680, 3, 0, -196609, 3, 0, -262144, 3, 0, -262133, 2, 0, -262132, 2, 0, -262131, 2, 0, -131073, 3, 0, -196608, 3, 0, -196604, 2, 0, -196603, 2, 0, -196602, 2, 0, -196601, 2, 0, -65537, 3, 0, -131072, 3, 0, -1, 3, 0, -65536, 3, 0, -65535, 2, 0, -65534, 2, 0, 65535, 3, 0, 0, 3, 0, 1, 3, 0, 2, 3, 0, 3, 2, 0, 4, 2, 0, 131071, 3, 0, 65536, 3, 0, 65537, 3, 0, 65538, 3, 0, 65539, 3, 0, 65540, 3, 0, 196607, 3, 0, 131072, 3, 0, 131073, 3, 0, 131074, 3, 0, 131075, 3, 0, 131076, 3, 0, 131079, 2, 0, 131080, 2, 0, 131081, 2, 0, 262143, 3, 0, 196608, 3, 0, 196609, 3, 0, 196610, 3, 0, 196615, 3, 0, 196616, 3, 0, 196617, 3, 0, 196618, 2, 0, 327679, 3, 0, 262144, 3, 0, 262145, 3, 0, 262151, 3, 0, 262152, 3, 0, 262153, 3, 0, 262154, 3, 0, 262155, 2, 0, 393215, 3, 0, 327680, 3, 0, 458751, 3, 0, 393216, 3, 0, 393228, 2, 0, 393229, 2, 0, 393230, 2, 0, 393231, 2, 0, 524287, 3, 0, 458752, 3, 0, 458753, 3, 0, 458754, 3, 0, 458755, 3, 0, 458756, 3, 0, 458757, 3, 0, 458758, 3, 0, 458759, 3, 0, 458760, 3, 0, 458761, 3, 0, 458762, 3, 0, 458763, 3, 0, 458764, 3, 0, 458765, 3, 0, 458766, 3, 0, 458767, 3, 0, 589823, 3, 0, 524288, 3, 0, 524289, 3, 0, 524290, 3, 0, 524291, 3, 0, 524292, 3, 0, 524293, 3, 0, 524294, 3, 0, 524295, 3, 0, 524296, 3, 0, 524297, 3, 0, 524298, 3, 0, 524299, 3, 0, 524300, 3, 0, 524301, 3, 0, 524302, 3, 0, 524303, 3, 0 )
+
+[node name="Area2D" parent="." instance=ExtResource( 1 )]
+position = Vector2( -195, 237 )
+next_scene_path = "res://zima.tscn"
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="Area2D"]
+position = Vector2( 304, -1997 )
+shape = SubResource( 1 )
+
+[node name="Strom" type="Sprite" parent="."]
+position = Vector2( 98, -676 )
+scale = Vector2( 3.27, 4.075 )
+texture = ExtResource( 5 )
+
+[node name="Portal1" type="Sprite" parent="."]
+position = Vector2( 86, -1809 )
+scale = Vector2( 2.44, 2.64 )
+texture = ExtResource( 4 )
+
+[node name="Portal2" type="Sprite" parent="."]
+position = Vector2( 108, -68 )
+scale = Vector2( 2.31, 2.37 )
+texture = ExtResource( 4 )
+
+[node name="Listy2" type="Sprite" parent="."]
+position = Vector2( 808.75, -660.25 )
+scale = Vector2( 1.065, 1.255 )
+texture = ExtResource( 6 )
+
+[node name="Listy3" type="Sprite" parent="."]
+position = Vector2( 778.25, -668 )
+scale = Vector2( 1.005, 0.82 )
+texture = ExtResource( 6 )
+
+[node name="Listy" type="Sprite" parent="Listy3"]
+position = Vector2( 18.0481, 33.3334 )
+scale = Vector2( 0.65508, 0.595238 )
+texture = ExtResource( 6 )
+
+[node name="Listy4" type="Sprite" parent="."]
+position = Vector2( 82, -740 )
+scale = Vector2( 1.49, 1.72 )
+texture = ExtResource( 6 )

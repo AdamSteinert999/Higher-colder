@@ -1,0 +1,81 @@
+[gd_scene load_steps=5 format=2]
+
+[ext_resource path="res://leto.png" type="Texture" id=1]
+[ext_resource path="res://podzim.png" type="Texture" id=2]
+[ext_resource path="res://zima.png" type="Texture" id=3]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 32, 32 )
+
+[node name="Tails" type="Node2D"]
+
+[node name="Sprite" type="Sprite" parent="."]
+position = Vector2( 284, 208 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite/StaticBody2D"]
+position = Vector2( -1, 0 )
+shape = SubResource( 1 )
+
+[node name="Sprite2" type="Sprite" parent="."]
+position = Vector2( 409, 207 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 0, 64, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="Sprite2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Sprite2/StaticBody2D"]
+position = Vector2( -1, 0 )
+shape = SubResource( 1 )
+
+[node name="podzim" type="Sprite" parent="."]
+position = Vector2( 281, 100 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="podzim"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="podzim/StaticBody2D"]
+position = Vector2( 0, -1 )
+shape = SubResource( 1 )
+
+[node name="podzim2" type="Sprite" parent="."]
+position = Vector2( 413, 100 )
+texture = ExtResource( 2 )
+region_enabled = true
+region_rect = Rect2( 0, 64, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="podzim2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="podzim2/StaticBody2D"]
+shape = SubResource( 1 )
+
+[node name="zima" type="Sprite" parent="."]
+position = Vector2( 283, 305 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 0, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="zima"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="zima/StaticBody2D"]
+position = Vector2( 1, 0 )
+shape = SubResource( 1 )
+
+[node name="zima2" type="Sprite" parent="."]
+position = Vector2( 412, 304 )
+texture = ExtResource( 3 )
+region_enabled = true
+region_rect = Rect2( 0, 64, 64, 64 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="zima2"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="zima2/StaticBody2D"]
+position = Vector2( 1, -1 )
+shape = SubResource( 1 )
